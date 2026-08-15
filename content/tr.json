@@ -1,0 +1,418 @@
+{
+    "nav": {
+        "home": "Ana Sayfa",
+        "about": "Hakkımda",
+        "stack": "Teknolojiler",
+        "projects": "Projeler",
+        "roadmap": "Yol Haritası",
+        "contact": "İletişim"
+    },
+    "hero": {
+        "title": "Birinci sınıf çapraz platform uygulamaları ve ölçeklenebilir <span class='highlight-text-primary'>backend sistemleri</span> <span class='highlight-text-primary'>tasarlıyorum</span>",
+        "cta_primary": "İletişim",
+        "cta_secondary": "Projeleri Keşfet",
+        "stats": "<span class='highlight-text-tertiary'>Yüksek Performans</span> Mobil & Bulut Mimarisi",
+        "scroll": "Aşağı Kaydır"
+    },
+    "about": {
+        "title": "Hakkımda",
+        "intro": "Karmaşık zorlukları <span class='highlight-text-primary'>yüksek performanslı ürünlere</span> dönüştüren kıdemli bir yazılım mühendisi.",
+        "description": "<span class='highlight-text-primary'>Flutter mobil geliştirme</span> ve bulut altyapısı konusunda uzmanlaşmış; Flutter, NestJS ve AWS ile şık çözümler üreten bir yaklaşım.",
+        "full": "Başarılı uygulamalar tasarlama, geliştirme ve yayınlama konusunda güçlü bir geçmişe sahip kararlı bir yazılım mühendisiyim. Flutter konusundaki geniş deneyimimle, yüksek etkili B2B çözümleri ve tüketici pazaryerleri dahil olmak üzere birçok çapraz platform uygulamasının geliştirilmesine liderlik ettim. Ürünleri sıfırdan oluşturmaktan, performansı optimize etmekten ve premium bir kullanıcı deneyimi sunmaktan büyük keyif alıyorum.<br/><br/>Yıllar içinde uzmanlığımı mobil uygulamaların ötesine taşıyarak full-stack geliştirme ve sunucu altyapısına da genişlettim. Backend sistemleri için NestJS, PostgreSQL ve Supabase ile çalışma deneyimim var ve Docker, Nginx, Redis, AWS (EC2) ve DigitalOcean gibi modern altyapı araçlarında oldukça yetkinim. Sürdürülebilir, modüler ve ölçeklenebilir yazılım mimarileri oluşturmaya odaklanıyorum.<br/><br/>Çalıştığım her ekibe yüksek enerji, güçlü bir öğrenme arzusu ve işbirlikçi bir zihniyet getiriyorum. Uygulamalı deneyler yaparak, hatalardan ders çıkararak ve daha iyi sistemler inşa ederek sürekli öğrenmeye inanıyorum.",
+        "cta": "Tamamını Oku"
+    },
+    "manifesto": {
+        "items": [
+            "RADICAL TRANSPARENCY",
+            "INTENTIONAL MINIMALISM",
+            "ARCHITECTURAL INTEGRITY",
+            "FIRST PRINCIPLES THINKING",
+            "PERFORMANCE WITHOUT COMPROMISE",
+            "SCALABLE VISION"
+        ]
+    },
+    "stack": {
+        "title": "Teknolojiler",
+        "items": [
+            {
+                "title": "Diller & Temel",
+                "items": [
+                    {
+                        "name": "Dart",
+                        "icon": "https://cdn.simpleicons.org/dart"
+                    },
+                    {
+                        "name": "TypeScript",
+                        "icon": "https://cdn.simpleicons.org/typescript"
+                    },
+                    {
+                        "name": "JavaScript",
+                        "icon": "https://cdn.simpleicons.org/javascript"
+                    },
+                    {
+                        "name": "Swift",
+                        "icon": "https://cdn.simpleicons.org/swift"
+                    },
+                    {
+                        "name": "Kotlin",
+                        "icon": "https://cdn.simpleicons.org/kotlin"
+                    },
+                    {
+                        "name": "Python",
+                        "icon": "https://cdn.simpleicons.org/python"
+                    }
+                ]
+            },
+            {
+                "title": "Frameworkler & Kütüphaneler",
+                "items": [
+                    {
+                        "name": "Flutter",
+                        "icon": "https://cdn.simpleicons.org/flutter"
+                    },
+                    {
+                        "name": "React",
+                        "icon": "https://cdn.simpleicons.org/react"
+                    },
+                    {
+                        "name": "NestJS",
+                        "icon": "https://cdn.simpleicons.org/nestjs"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "icon": "https://cdn.simpleicons.org/tailwindcss"
+                    },
+                    {
+                        "name": "HTML5",
+                        "icon": "https://cdn.simpleicons.org/html5"
+                    },
+                    {
+                        "name": "CSS3",
+                        "icon": "https://www.svgrepo.com/show/452185/css-3.svg"
+                    }
+                ]
+            },
+            {
+                "title": "Veritabanları & Servisler",
+                "items": [
+                    {
+                        "name": "PostgreSQL",
+                        "icon": "https://cdn.simpleicons.org/postgresql"
+                    },
+                    {
+                        "name": "Supabase",
+                        "icon": "https://cdn.simpleicons.org/supabase"
+                    },
+                    {
+                        "name": "Firebase",
+                        "icon": "https://cdn.simpleicons.org/firebase"
+                    },
+                    {
+                        "name": "Redis",
+                        "icon": "https://cdn.simpleicons.org/redis"
+                    }
+                ]
+            },
+            {
+                "title": "Araçlar & Bulut",
+                "items": [
+                    {
+                        "name": "Git",
+                        "icon": "https://cdn.simpleicons.org/git"
+                    },
+                    {
+                        "name": "Docker",
+                        "icon": "https://cdn.simpleicons.org/docker"
+                    },
+                    {
+                        "name": "AWS",
+                        "icon": "https://cdn.simpleicons.org/amazonwebservices"
+                    },
+                    {
+                        "name": "Nginx",
+                        "icon": "https://cdn.simpleicons.org/nginx"
+                    },
+                    {
+                        "name": "Linux",
+                        "icon": "https://cdn.simpleicons.org/linux"
+                    },
+                    {
+                        "name": "Bash",
+                        "icon": "https://cdn.simpleicons.org/gnu-bash"
+                    }
+                ]
+            }
+        ]
+    },
+    "projects": {
+        "title": "PROJELER",
+        "intro": "Hassasiyetle oluşturulmuş <span class='highlight-text-primary'>ölçeklenebilir uygulamalar</span>, <span class='highlight-text-primary'>yüksek performanslı araçlar</span> ve <span class='highlight-text-primary'>dijital mimarilerden</span> oluşan bir koleksiyon.",
+        "scroll_text": "KEŞFETMEK İÇİN KAYDIR",
+        "end_text": "SON",
+        "items": [
+            {
+                "id": "1",
+                "title": "Marhaba Auctions",
+                "category": "Canlı İhale Uygulaması",
+                "year": "2023",
+                "description": "Dubai'deki büyük bir otomobil ihale şirketi için geliştirildi. Canlı teklif verme süreçleri için WebSockets, tam entegre ödeme geçidi ve özel uygulama içi cüzdan sistemini barındırır. Araç satışı ve nakliyesi de dahil olmak üzere kapsamlı bir otomotiv döngüsünü destekler.",
+                "image": "/projects/marhaba/1.png",
+                "icon": "/projects/marhaba/0.png",
+                "playstore": "https://play.google.com/store/apps/details?id=com.marhabaautosales.android",
+                "appstore": "https://apps.apple.com/in/app/marhaba-auction/id1276558362",
+                "website": "https://marhabaauctions.com/",
+                "stack": [
+                    "Flutter",
+                    "WebSockets",
+                    "Live Bidding",
+                    "Wallet",
+                    "Payments"
+                ],
+                "screenshots": [
+                    "/projects/marhaba/1.png",
+                    "/projects/marhaba/2.png",
+                    "/projects/marhaba/3.png",
+                    "/projects/marhaba/4.png",
+                    "/projects/marhaba/5.png",
+                    "/projects/marhaba/6.png"
+                ]
+            },
+            {
+                "id": "2",
+                "title": "Koor Property",
+                "category": "Mobil Uygulama",
+                "year": "2024",
+                "description": "Körfez ülkeleri için gayrimenkul alım, satım ve kiralama platformu. Sıfır pazarlama bütçesiyle ilk ayında 10 binden fazla indirme aldı. Çok dilli yerelleştirme, derin bağlantılar (deep linking), çevrimdışı öncelikli çalışma ve harita tabanlı yakın çevre arama özellikleri ile sıfırdan geliştirildi. iOS ve Play Store'da 4.5+ puanla aktiftir.",
+                "image": "/projects/koor/1.jpg",
+                "icon": "/projects/koor/0.jpg",
+                "playstore": "https://play.google.com/store/apps/details?id=com.ulearnatech.koor",
+                "appstore": "https://apps.apple.com/no/app/koor-buy-rent-property/id6746753805",
+                "website": "https://koor.co/",
+                "stack": [
+                    "Flutter",
+                    "Firebase",
+                    "Google Maps",
+                    "Deep Linking",
+                    "Localization",
+                    "AI Moderation"
+                ],
+                "screenshots": [
+                    "/projects/koor/1.jpg",
+                    "/projects/koor/2.jpg",
+                    "/projects/koor/3.jpg",
+                    "/projects/koor/4.jpg",
+                    "/projects/koor/5.jpg",
+                    "/projects/koor/6.jpg"
+                ]
+            },
+            {
+                "id": "3",
+                "title": "Movermate Crew",
+                "category": "Lojistik Platformu",
+                "year": "2023",
+                "description": "Gelişmiş navigasyon, gerçek zamanlı konum takibi ve güvenli ödemeler için Stripe Tap-to-Pay entegrasyonuna sahip yüksek performanslı lojistik ve taşımacılık uygulaması. Ekipler arası mesajlaşma ve takvim planlama özelliklerini içerir. Hem iOS hem de Android için tam uyumludur.",
+                "image": "/projects/movermate/1.jpg",
+                "icon": "/projects/movermate/0.jpg",
+                "playstore": "https://play.google.com/store/apps/details?id=com.movermate.crew_app",
+                "appstore": "https://apps.apple.com/no/app/movermate-crew/id6737702875",
+                "website": "https://movermate.com.au/",
+                "stack": [
+                    "Flutter",
+                    "Stripe",
+                    "Radar API",
+                    "Real-Time Sync",
+                    "Geofencing",
+                    "Calendar"
+                ],
+                "screenshots": [
+                    "/projects/movermate/1.jpg",
+                    "/projects/movermate/2.jpg",
+                    "/projects/movermate/3.jpg",
+                    "/projects/movermate/4.jpg"
+                ]
+            },
+            {
+                "id": "4",
+                "title": "Counsellor App",
+                "category": "B2B CRM",
+                "year": "2023",
+                "description": "Kullanıcıların SwiftAMS yönetim paneline hızlıca erişmelerini sağlayan, müşteri adaylarını yönetmelerine, arama günlüklerine, dahili arama ve arama kaydetme özelliklerine kolayca ulaşmalarına imkan tanıyan mobil B2B CRM çözümü.",
+                "image": "/projects/counsellor_app/1.jpg",
+                "icon": "/projects/counsellor_app/0.jpg",
+                "playstore": "https://play.google.com/store/apps/details?id=com.codexplabs.swiftcounsellorapp",
+                "appstore": "https://apps.apple.com/no/app/swiftams-business/id6451433255",
+                "website": "https://swiftams.com/",
+                "stack": [
+                    "Flutter",
+                    "Call Logs",
+                    "Dialer",
+                    "Call Recording",
+                    "CRM"
+                ],
+                "screenshots": [
+                    "/projects/counsellor_app/1.jpg",
+                    "/projects/counsellor_app/2.jpg",
+                    "/projects/counsellor_app/3.jpg",
+                    "/projects/counsellor_app/4.jpg",
+                    "/projects/counsellor_app/5.jpg",
+                    "/projects/counsellor_app/6.jpg"
+                ]
+            },
+            {
+                "id": "5",
+                "title": "Spotted",
+                "category": "FinTech Sosyal",
+                "year": "2025",
+                "description": "Spotted – Tara, Öde ve Anında Nakit İade Kazan. Alışveriş yapmanın akıllı ve ödüllendirici bir yolu. Herhangi bir UPI ödeme uygulaması ile QR kodunu tarayarak ödemenizi tamamlayın ve doğrudan uygulama içi cüzdanınıza anında nakit iade kazanın.",
+                "image": "/projects/spotted/1.png",
+                "icon": "/projects/spotted/0.webp",
+                "playstore": "https://play.google.com/store/apps/details?id=com.spottedapp.user",
+                "appstore": "https://apps.apple.com/no/app/spotted-share-with-friends/id6753819174",
+                "website": "https://www.tryspotted.com/",
+                "stack": [
+                    "Flutter",
+                    "Riverpod",
+                    "Real-Time",
+                    "Payments",
+                    "Social",
+                    "Chat"
+                ],
+                "screenshots": [
+                    "/projects/spotted/1.png",
+                    "/projects/spotted/2.png",
+                    "/projects/spotted/3.png",
+                    "/projects/spotted/4.png",
+                    "/projects/spotted/5.png"
+                ]
+            },
+            {
+                "id": "6",
+                "title": "SSC Exam Prep AI",
+                "category": "Yapay Zekâ EdTech",
+                "year": "2025",
+                "description": "Sınavlara hazırlanan öğrenciler için geliştirilmiş ileri düzey quiz uygulaması. Gemini API kullanılarak yapay zekâ tarafından oluşturulan çözümlü açıklamalar, Phi-4 yerel yapay zekâ modeli ile PDF dosyalarından soru çıkarma ve kişiselleştirilmiş çalışma notları için etkileşimli sohbet arayüzü içerir.",
+                "image": "/projects/ssc_ai/1.jpg",
+                "icon": "/projects/ssc_ai/0.jpg",
+                "playstore": "https://play.google.com/store/apps/details?id=com.mmstq.quiz.ssc_quiz",
+                "website": "https://sscaiapp.com/",
+                "repo": "https://github.com/mohdmustak",
+                "stack": [
+                    "Flutter",
+                    "Gemini API",
+                    "Phi-4 LLM",
+                    "Dart",
+                    "AI Chat",
+                    "PDF Parsing"
+                ],
+                "screenshots": [
+                    "/projects/ssc_ai/1.jpg",
+                    "/projects/ssc_ai/2.png",
+                    "/projects/ssc_ai/3.png",
+                    "/projects/ssc_ai/4.png",
+                    "/projects/ssc_ai/5.png",
+                    "/projects/ssc_ai/6.png",
+                    "/projects/ssc_ai/7.png",
+                    "/projects/ssc_ai/8.png"
+                ]
+            }
+        ]
+    },
+    "roadmap": {
+        "title": "Yol Haritası",
+        "description": "Yazılım yolculuğum boyunca edindiğim tecrübeleri, önemli dönüm noktalarını ve öğrendiğim teknolojileri paylaştığım bir yol haritası.",
+        "items": [
+            {
+                "id": "01",
+                "year": "2021",
+                "description": "MD Üniversitesi Bilgisayar Mühendisliği bölümünden A dereceyle mezun oldu. Mobil uygulama geliştirme derslerinde 174'ten fazla öğrenciye mentorluk yaptı ve Yasita Creations'a katılarak manuel iş süreçlerini dijitalleştirdi.",
+                "tags": [
+                    "Flutter",
+                    "Firebase",
+                    "Supabase",
+                    "Git"
+                ]
+            },
+            {
+                "id": "02",
+                "year": "2022",
+                "description": "TaskEx (Avustralya, Uzaktan) bünyesine katılarak gerçek zamanlı takip, mesajlaşma, takvim yönetimi ve Stripe Tap-to-Pay özelliklerine sahip yüksek performanslı bir lojistik uygulaması geliştirdi.",
+                "tags": [
+                    "Flutter",
+                    "Stripe",
+                    "Real-time Sync",
+                    "Google Maps"
+                ]
+            },
+            {
+                "id": "03",
+                "year": "2023",
+                "description": "SwiftAMS firmasına Kıdemli Yazılım Mühendisi olarak katıldı. Üç mobil uygulamanın geliştirilmesine liderlik etti, B2B sistemleri kurdu, CI/CD süreçlerini yönetti ve PostgreSQL, NestJS, AWS ile Docker öğrendi.",
+                "tags": [
+                    "NestJS",
+                    "PostgreSQL",
+                    "Docker",
+                    "AWS",
+                    "Nginx"
+                ]
+            },
+            {
+                "id": "04",
+                "year": "2024",
+                "description": "Ulearna Tech (Dubai, Uzaktan) bünyesinde Kıdemli Yazılım Mühendisi olarak çalışmaya başladı. Körfez ülkelerine özel mülk alım satım ve kiralama pazaryeri Koor'u sıfırdan kurarak ilk ayda 10 bin indirmeye ulaştırdı.",
+                "tags": [
+                    "Flutter",
+                    "Multilingual",
+                    "Offline Sync",
+                    "Deep Linking"
+                ]
+            },
+            {
+                "id": "05",
+                "year": "2026",
+                "description": "Küresel çaptaki müşterilere yüksek kaliteli çözümler sunmak üzere ölçeklenebilir mobil ürünler, full-stack sistem mimarileri ve yapay zekâ entegrasyonları (Gemini API, Phi-4 yerel modelleri) tasarlamaya devam ediyor.",
+                "tags": [
+                    "Gemini API",
+                    "Local LLM",
+                    "AI Integrations",
+                    "System Design"
+                ]
+            }
+        ]
+    },
+    "contact": {
+        "title": "İletişim",
+        "description": "İster sıfırdan yepyeni bir uygulama geliştirelim, ister mevcut bulut altyapınızı optimize edelim; konuşalım.",
+        "email": "mr.samim.sammi@gmail.com",
+        "phone": "+91 9053329711",
+        "send_email": "E-posta Gönder",
+        "direct_line": "Telefon Numarası",
+        "all_rights_reserved": "TÜM HAKLARI SAKLIDIR.",
+        "modal_title": "İletişim Bilgilerim",
+        "modal_description": "Bana bir mesaj gönderin, en kısa sürede size geri dönüş yapayım."
+    },
+    "social": {
+        "title": "SOSYAL",
+        "items": [
+            {
+                "label": "GitHub",
+                "href": "https://github.com/samdev-0"
+            },
+            {
+                "label": "LinkedIn",
+                "href": "https://www.linkedin.com/in/mr-samim"
+            }
+        ]
+    },
+    "others": {
+        "about_project": "Proje Hakkında",
+        "technologies": "Teknolojiler",
+        "live_demo": "Canlı Demo",
+        "source_code": "Kaynak Kodları",
+        "project_details": "Proje Detayları",
+        "select_language": "Dil Seçin",
+        "change_the_site_language": "Sitenin dilini değiştirmek için tıklayın.",
+        "screenshots": "Uygulama Ekran Görüntüleri",
+        "all_projects": "Tüm Projeler",
+        "next_project": "Sonraki Proje"
+    }
+}

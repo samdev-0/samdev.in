@@ -1,0 +1,218 @@
+"use client";
+
+import { useRef, useState, useCallback } from "react";
+import { useScroll, useTransform, useMotionTemplate, useMotionValueEvent, motion } from "framer-motion";
+import { useLanguage } from "@/context/language-context";
+import { ArrowRight, Mouse } from "lucide-react";
+import { ContactModal } from "@/components/contact-modal";
+import { SplitText } from "@/components/split-text";
+import { InteractiveParticles } from "@/components/3d/interactive-particles";
+
+export default function Hero() {
+    const { content, raw } = useLanguage();
+    const containerRef = useRef<HTMLDivElement>(null);
+    const [contactOpen, setContactOpen] = useState(false);
+
+    const { scrollY } = useScroll();
+    // Hero is sticky, so its rect never leaves the viewport for an observer to
+    // reset. Drive the SplitText reveal off scroll position instead: play near
+    // the top, reset once scrolled away so it replays on return.
+    const [heroActive, setHeroActive] = useState(true);
+    useMotionValueEvent(scrollY, "change", (v) => setHeroActive(v < 250));
+
+    const opacity = useTransform(scrollY, [0, 800], [1, 0]);
+    const scale = useTransform(scrollY, [0, 800], [1, 0.94]);
+    const y = useTransform(scrollY, [0, 800], [0, -150]);
+    const blurValue = useTransform(scrollY, [0, 800], [0, 10]);
+    const filter = useMotionTemplate`blur(${blurValue}px)`;
+    const track1 = [
+        "/hero-slider/makise-kurisu-2.webp",
+        "/hero-slider/atam-1.webp",
+        "/hero-slider/kintaro-2.webp",
+        "/hero-slider/makise-kurisu-1.webp",
+        "/hero-slider/atam-2.webp",
+        "/hero-slider/kintaro-1.webp"
+    ];
+
+    const track2 = [
+        "/hero-slider/kintaro-1.webp",
+        "/hero-slider/atam-2.webp",
+        "/hero-slider/makise-kurisu-1.webp",
+        "/hero-slider/kintaro-2.webp",
+        "/hero-slider/atam-1.webp",
+        "/hero-slider/makise-kurisu-2.webp"
+    ];
+
+    const col1Images = [...track1, ...track1];
+    const col2Images = [...track2, ...track2];
+
+    const scrollToProjects = useCallback(() => {
+        const projectsSection = document.getElementById("projects");
+        if (projectsSection) {
+            projectsSection.scrollIntoView({ behavior: "smooth" });
+        }
+    }, []);
+
+    return (
+        <section
+            ref={containerRef}
+            className="sticky top-0 h-screen w-full flex flex-col justify-between bg-background px-container md:px-16 pt-28 pb-12 sm:pt-32 sm:pb-16 2xl:pb-24 overflow-hidden"
+            id="home"
+        >
+            <InteractiveParticles />
+
+            <motion.div
+                style={{ opacity }}
+                className="absolute top-0 right-6 sm:right-12 md:right-16 lg:right-24 xl:right-36 2xl:right-48 bottom-0 h-full w-55 sm:w-65 md:w-85 lg:w-100 xl:w-110 2xl:w-120 flex gap-3 sm:gap-4 px-2 overflow-hidden z-5 pointer-events-none select-none opacity-[0.22] dark:opacity-[0.28] mix-blend-luminosity"
+            >
+                <div className="max-sm:hidden flex-1 h-full overflow-hidden relative">
+                    <motion.div
+                        animate={{ y: ["0%", "-50%"] }}
+                        transition={{
+                            ease: "linear",
+                            duration: 32,
+                            repeat: Infinity
+                        }}
+                        className="flex flex-col gap-3 sm:gap-4 pt-4"
+                    >
+                        {col1Images.map((src, idx) => (
+                            <div key={idx} className="w-full aspect-3/4 relative overflow-hidden rounded-4xl border border-border/5">
+                                <img
+                                    src={src}
+                                    alt="Portrait Up"
+                                    onError={(e) => { e.currentTarget.src = "/me.jpg"; }}
+                                    className="w-full h-full object-cover object-center grayscale contrast-[1.08] brightness-[0.8]"
+                                />
+                            </div>
+                        ))}
+                    </motion.div>
+                </div>
+
+                <div className="max-sm:opacity-50 flex-1 h-full overflow-hidden relative">
+                    <motion.div
+                        animate={{ y: ["-50%", "0%"] }}
+                        transition={{
+                            ease: "linear",
+                            duration: 32,
+                            repeat: Infinity
+                        }}
+                        className="flex flex-col gap-3 sm:gap-4 pt-4"
+                    >
+                        {col2Images.map((src, idx) => (
+                            <div key={idx} className="w-full aspect-3/4 relative overflow-hidden rounded-4xl border border-border/5">
+                                <img
+                                    src={src}
+                                    alt="Portrait Down"
+                                    onError={(e) => { e.currentTarget.src = "/me.jpg"; }}
+                                    className="w-full h-full object-cover object-center grayscale contrast-[1.08] brightness-[0.8]"
+                                />
+                            </div>
+                        ))}
+                    </motion.div>
+                </div>
+
+                <div className="absolute inset-0 bg-linear-to-t from-background via-transparent to-background pointer-events-none z-10" />
+                <div className="absolute inset-0 bg-linear-to-r from-background via-transparent to-transparent pointer-events-none z-10" />
+            </motion.div>
+
+            <motion.div
+                style={{ opacity, scale, y, filter }}
+                className="relative z-20 flex-1 flex flex-col gap-6 sm:gap-12 xl:gap-16 justify-end w-full h-full will-change-[opacity,transform,filter]"
+            >
+
+                <div className="flex justify-between items-start w-full">
+
+                    <div className="text-4xl sm:text-6xl text-foreground/10 grunge-text rotate-90 pointer-events-none select-none">
+                        {"////"}
+                    </div>
+
+                    <div className="flex flex-col items-center gap-4">
+                        <div className="w-px h-12 bg-border relative overflow-hidden">
+                            <motion.div
+                                className="absolute top-0 left-0 w-full h-1/2 bg-foreground"
+                                animate={{
+                                    y: ["0%", "100%", "0%"]
+                                }}
+                                transition={{
+                                    duration: 2.5,
+                                    repeat: Infinity,
+                                    ease: "easeInOut"
+                                }}
+                            />
+                        </div>
+                        <span className="text-[9px] font-mono tracking-[0.3em] uppercase text-muted-foreground [writing-mode:vertical-lr]">
+                            SCROLL
+                        </span>
+                    </div>
+                </div>
+
+                <div className="w-full mt-auto flex flex-col justify-center relative z-20 mix-blend-difference">
+                    <div className="overflow-hidden">
+                        <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl 2xl:text-[140px] font-black tracking-tighter leading-[0.85] text-foreground uppercase whitespace-nowrap">
+                            <SplitText
+                                as="span"
+                                text="Samim"
+                                splitType="chars"
+                                delay={50}
+                                duration={0.7}
+                                active={heroActive}
+                                className="block"
+                            />
+                            <SplitText
+                                as="span"
+                                text="Portfolio"
+                                splitType="chars"
+                                delay={50}
+                                duration={0.7}
+                                startDelay={350}
+                                active={heroActive}
+                                className="block text-foreground/80"
+                            />
+                        </h1>
+                    </div>
+                </div>
+
+                <div className="space-y-6 sm:space-y-10">
+                    <SplitText
+                        as="p"
+                        text={raw.about.description}
+                        splitType="words"
+                        delay={45}
+                        duration={0.6}
+                        startDelay={400}
+                        active={heroActive}
+                        className="sm:text-lg 2xl:text-xl text-muted-foreground font-light leading-relaxed max-w-xl mix-blend-difference"
+                    />
+
+                    <div className="flex flex-col sm:flex-row flex-wrap sm:items-center gap-4">
+                        <button
+                            onClick={() => setContactOpen(true)}
+                            className="w-fit group relative flex h-12 xl:h-16 cursor-pointer items-center justify-center overflow-hidden rounded-full border border-border/50 bg-foreground px-6 xl:px-10 text-background transition-all duration-500 ease-out hover:bg-background hover:border-foreground/30 hover:text-foreground shadow-2xl hover:-translate-y-0.5"
+                        >
+                            <div className="absolute inset-0 flex h-full w-full justify-center -translate-x-full -skew-x-12 group-hover:duration-1000 group-hover:translate-x-full">
+                                <div className="relative h-full w-8 bg-background/20 dark:bg-foreground/10" />
+                            </div>
+                            <span className="relative z-10 flex items-center gap-2 xl:gap-3 text-xs xl:text-base font-semibold tracking-[0.15em] uppercase">
+                                {content.hero.cta_primary}
+                                <ArrowRight className="w-3.5 xl:w-5 h-3.5 xl:h-5 transition-transform duration-500 group-hover:translate-x-1" />
+                            </span>
+                        </button>
+
+                        <button
+                            onClick={scrollToProjects}
+                            className="w-fit group relative flex h-12 xl:h-16 cursor-pointer items-center justify-center px-6 xl:px-10 text-muted-foreground transition-all duration-500 hover:text-foreground hover:bg-secondary/15 rounded-full border border-border sm:border-transparent hover:border-border/30 backdrop-blur-sm"
+                        >
+                            <span className="relative z-10 text-xs xl:text-base font-semibold tracking-[0.15em] uppercase flex items-center gap-2 xl:gap-3">
+                                <Mouse className="w-3.5 xl:w-5 h-3.5 xl:h-5 opacity-50 group-hover:opacity-100 transition-opacity" />
+                                {content.hero.cta_secondary}
+                            </span>
+                        </button>
+                    </div>
+                </div>
+
+            </motion.div>
+
+            <ContactModal open={contactOpen} onOpenChange={setContactOpen} />
+        </section>
+    );
+}

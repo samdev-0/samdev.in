@@ -1,0 +1,418 @@
+{
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "stack": "Stack",
+        "projects": "Projects",
+        "roadmap": "Roadmap",
+        "contact": "Contact"
+    },
+    "hero": {
+        "title": "I <span class='highlight-text-primary'>architect</span> premium cross-platform apps and scalable <span class='highlight-text-primary'>backend systems</span>",
+        "cta_primary": "Connect",
+        "cta_secondary": "Explore Works",
+        "stats": "<span class='highlight-text-tertiary'>High Performance</span> Mobile & Cloud Architecture",
+        "scroll": "Scroll Down"
+    },
+    "about": {
+        "title": "About",
+        "intro": "A senior software engineer who translates complex challenges into <span class='highlight-text-primary'>high-performance products</span>.",
+        "description": "Specialized in <span class='highlight-text-primary'>Flutter mobile development</span> and cloud infrastructure; creating elegant solutions with Flutter, NestJS, and AWS.",
+        "full": "I am a dedicated software engineer with a strong track record of designing, building, and launching successful applications. With extensive experience in Flutter, I have led the development of several cross-platform applications, including high-impact B2B solutions and consumer marketplaces. I enjoy building products from the ground up, optimizing performance, and ensuring a premium user experience.<br/><br/>Over the years, I have expanded my expertise beyond mobile apps into full-stack development and server infrastructure. I have experience working with NestJS, PostgreSQL, and Supabase for backend systems, and I am highly proficient with modern infrastructure tools like Docker, Nginx, Redis, AWS (EC2), and DigitalOcean. I focus on creating maintainable, modular, and scalable software architectures.<br/><br/>I bring energy, a strong learning attitude, and a collaborative mindset to every team I work with. I believe in learning continuously through hands-on experimentation, making mistakes, and building better systems.",
+        "cta": "Read Full Version"
+    },
+    "manifesto": {
+        "items": [
+            "RADICAL TRANSPARENCY",
+            "INTENTIONAL MINIMALISM",
+            "ARCHITECTURAL INTEGRITY",
+            "FIRST PRINCIPLES THINKING",
+            "PERFORMANCE WITHOUT COMPROMISE",
+            "SCALABLE VISION"
+        ]
+    },
+    "stack": {
+        "title": "STACK",
+        "items": [
+            {
+                "title": "Languages & Core",
+                "items": [
+                    {
+                        "name": "Dart",
+                        "icon": "https://cdn.simpleicons.org/dart"
+                    },
+                    {
+                        "name": "TypeScript",
+                        "icon": "https://cdn.simpleicons.org/typescript"
+                    },
+                    {
+                        "name": "JavaScript",
+                        "icon": "https://cdn.simpleicons.org/javascript"
+                    },
+                    {
+                        "name": "Swift",
+                        "icon": "https://cdn.simpleicons.org/swift"
+                    },
+                    {
+                        "name": "Kotlin",
+                        "icon": "https://cdn.simpleicons.org/kotlin"
+                    },
+                    {
+                        "name": "Python",
+                        "icon": "https://cdn.simpleicons.org/python"
+                    }
+                ]
+            },
+            {
+                "title": "Frameworks & Tech",
+                "items": [
+                    {
+                        "name": "Flutter",
+                        "icon": "https://cdn.simpleicons.org/flutter"
+                    },
+                    {
+                        "name": "React",
+                        "icon": "https://cdn.simpleicons.org/react"
+                    },
+                    {
+                        "name": "NestJS",
+                        "icon": "https://cdn.simpleicons.org/nestjs"
+                    },
+                    {
+                        "name": "Tailwind CSS",
+                        "icon": "https://cdn.simpleicons.org/tailwindcss"
+                    },
+                    {
+                        "name": "HTML5",
+                        "icon": "https://cdn.simpleicons.org/html5"
+                    },
+                    {
+                        "name": "CSS3",
+                        "icon": "https://www.svgrepo.com/show/452185/css-3.svg"
+                    }
+                ]
+            },
+            {
+                "title": "Databases & Services",
+                "items": [
+                    {
+                        "name": "PostgreSQL",
+                        "icon": "https://cdn.simpleicons.org/postgresql"
+                    },
+                    {
+                        "name": "Supabase",
+                        "icon": "https://cdn.simpleicons.org/supabase"
+                    },
+                    {
+                        "name": "Firebase",
+                        "icon": "https://cdn.simpleicons.org/firebase"
+                    },
+                    {
+                        "name": "Redis",
+                        "icon": "https://cdn.simpleicons.org/redis"
+                    }
+                ]
+            },
+            {
+                "title": "Tools & Cloud",
+                "items": [
+                    {
+                        "name": "Git",
+                        "icon": "https://cdn.simpleicons.org/git"
+                    },
+                    {
+                        "name": "Docker",
+                        "icon": "https://cdn.simpleicons.org/docker"
+                    },
+                    {
+                        "name": "AWS",
+                        "icon": "https://cdn.simpleicons.org/amazonwebservices"
+                    },
+                    {
+                        "name": "Nginx",
+                        "icon": "https://cdn.simpleicons.org/nginx"
+                    },
+                    {
+                        "name": "Linux",
+                        "icon": "https://cdn.simpleicons.org/linux"
+                    },
+                    {
+                        "name": "Bash",
+                        "icon": "https://cdn.simpleicons.org/gnu-bash"
+                    }
+                ]
+            }
+        ]
+    },
+    "projects": {
+        "title": "PROJECTS",
+        "intro": "A collection of <span class='highlight-text-primary'>scalable apps</span>, <span class='highlight-text-primary'>high-performance tools</span>, and <span class='highlight-text-primary'>digital architectures</span> built with precision.",
+        "scroll_text": "SCROLL TO EXPLORE",
+        "end_text": "END",
+        "items": [
+            {
+                "id": "1",
+                "title": "Marhaba Auctions",
+                "category": "Live Bidding App",
+                "year": "2023",
+                "description": "Built for a big auction company in Dubai. Uses WebSockets for live bidding, full payment gateway integration, and a dedicated in-app wallet. Accommodates a comprehensive vehicle lifecycle including selling and shipping cars.",
+                "image": "/projects/marhaba/1.png",
+                "icon": "/projects/marhaba/0.png",
+                "playstore": "https://play.google.com/store/apps/details?id=com.marhabaautosales.android",
+                "appstore": "https://apps.apple.com/in/app/marhaba-auction/id1276558362",
+                "website": "https://marhabaauctions.com/",
+                "stack": [
+                    "Flutter",
+                    "WebSockets",
+                    "Live Bidding",
+                    "Wallet",
+                    "Payments"
+                ],
+                "screenshots": [
+                    "/projects/marhaba/1.png",
+                    "/projects/marhaba/2.png",
+                    "/projects/marhaba/3.png",
+                    "/projects/marhaba/4.png",
+                    "/projects/marhaba/5.png",
+                    "/projects/marhaba/6.png"
+                ]
+            },
+            {
+                "id": "2",
+                "title": "Koor Property",
+                "category": "Mobile Application",
+                "year": "2024",
+                "description": "A property buying, selling, and renting platform for Gulf countries. Achieved 10K+ downloads in the first month with zero marketing spend. Built from scratch with multilingual localization, deep linking, offline-first support, and nearby property search. Available on both iOS and Play Store with 4.5+ rating.",
+                "image": "/projects/koor/1.jpg",
+                "icon": "/projects/koor/0.jpg",
+                "playstore": "https://play.google.com/store/apps/details?id=com.ulearnatech.koor",
+                "appstore": "https://apps.apple.com/no/app/koor-buy-rent-property/id6746753805",
+                "website": "https://koor.co/",
+                "stack": [
+                    "Flutter",
+                    "Firebase",
+                    "Google Maps",
+                    "Deep Linking",
+                    "Localization",
+                    "AI Moderation"
+                ],
+                "screenshots": [
+                    "/projects/koor/1.jpg",
+                    "/projects/koor/2.jpg",
+                    "/projects/koor/3.jpg",
+                    "/projects/koor/4.jpg",
+                    "/projects/koor/5.jpg",
+                    "/projects/koor/6.jpg"
+                ]
+            },
+            {
+                "id": "3",
+                "title": "Movermate Crew",
+                "category": "Logistics Platform",
+                "year": "2023",
+                "description": "A high-performance logistics and moving app with advanced navigation, real-time tracking, and Stripe Tap-to-Pay for secure transactions. Features real-time messaging and calendar for scheduling moves. Delivers seamless cross-platform support for iOS and Android.",
+                "image": "/projects/movermate/1.jpg",
+                "icon": "/projects/movermate/0.jpg",
+                "playstore": "https://play.google.com/store/apps/details?id=com.movermate.crew_app",
+                "appstore": "https://apps.apple.com/no/app/movermate-crew/id6737702875",
+                "website": "https://movermate.com.au/",
+                "stack": [
+                    "Flutter",
+                    "Stripe",
+                    "Radar API",
+                    "Real-Time Sync",
+                    "Geofencing",
+                    "Calendar"
+                ],
+                "screenshots": [
+                    "/projects/movermate/1.jpg",
+                    "/projects/movermate/2.jpg",
+                    "/projects/movermate/3.jpg",
+                    "/projects/movermate/4.jpg"
+                ]
+            },
+            {
+                "id": "4",
+                "title": "Counsellor App",
+                "category": "B2B CRM",
+                "year": "2023",
+                "description": "The SwiftAMS Business App is a mobile CRM solution that grants users swift access to the SwiftAMS dashboard, empowering them to manage leads, tasks, call logs, dialer functionalities, call recordings, and real-time updates.",
+                "image": "/projects/counsellor_app/1.jpg",
+                "icon": "/projects/counsellor_app/0.jpg",
+                "playstore": "https://play.google.com/store/apps/details?id=com.codexplabs.swiftcounsellorapp",
+                "appstore": "https://apps.apple.com/no/app/swiftams-business/id6451433255",
+                "website": "https://swiftams.com/",
+                "stack": [
+                    "Flutter",
+                    "Call Logs",
+                    "Dialer",
+                    "Call Recording",
+                    "CRM"
+                ],
+                "screenshots": [
+                    "/projects/counsellor_app/1.jpg",
+                    "/projects/counsellor_app/2.jpg",
+                    "/projects/counsellor_app/3.jpg",
+                    "/projects/counsellor_app/4.jpg",
+                    "/projects/counsellor_app/5.jpg",
+                    "/projects/counsellor_app/6.jpg"
+                ]
+            },
+            {
+                "id": "5",
+                "title": "Spotted",
+                "category": "FinTech Social",
+                "year": "2025",
+                "description": "Spotted – Scan, Pay & Earn Cashback Instantly. Spotted is a smart and rewarding way to make payments. Simply scan our QR code, complete your payment using any UPI app (like Google Pay, PhonePe, Paytm, etc.), and earn instant cashback directly into your in-app wallet.",
+                "image": "/projects/spotted/1.png",
+                "icon": "/projects/spotted/0.webp",
+                "playstore": "https://play.google.com/store/apps/details?id=com.spottedapp.user",
+                "appstore": "https://apps.apple.com/no/app/spotted-share-with-friends/id6753819174",
+                "website": "https://www.tryspotted.com/",
+                "stack": [
+                    "Flutter",
+                    "Riverpod",
+                    "Real-Time",
+                    "Payments",
+                    "Social",
+                    "Chat"
+                ],
+                "screenshots": [
+                    "/projects/spotted/1.png",
+                    "/projects/spotted/2.png",
+                    "/projects/spotted/3.png",
+                    "/projects/spotted/4.png",
+                    "/projects/spotted/5.png"
+                ]
+            },
+            {
+                "id": "6",
+                "title": "SSC Exam Prep AI",
+                "category": "AI EdTech",
+                "year": "2025",
+                "description": "An advanced quiz application designed for competitive exams. Features include AI-generated explanations using the Gemini API, automated question extraction from raw PDFs using Local LLM (Phi-4 model), and an interactive chat interface for personalized topic curation.",
+                "image": "/projects/ssc_ai/1.jpg",
+                "icon": "/projects/ssc_ai/0.jpg",
+                "playstore": "https://play.google.com/store/apps/details?id=com.mmstq.quiz.ssc_quiz",
+                "website": "https://sscaiapp.com/",
+                "repo": "https://github.com/mohdmustak",
+                "stack": [
+                    "Flutter",
+                    "Gemini API",
+                    "Phi-4 LLM",
+                    "Dart",
+                    "AI Chat",
+                    "PDF Parsing"
+                ],
+                "screenshots": [
+                    "/projects/ssc_ai/1.jpg",
+                    "/projects/ssc_ai/2.png",
+                    "/projects/ssc_ai/3.png",
+                    "/projects/ssc_ai/4.png",
+                    "/projects/ssc_ai/5.png",
+                    "/projects/ssc_ai/6.png",
+                    "/projects/ssc_ai/7.png",
+                    "/projects/ssc_ai/8.png"
+                ]
+            }
+        ]
+    },
+    "roadmap": {
+        "title": "Roadmap",
+        "description": "A roadmap highlighting my professional evolution, key milestones, and the technologies I have integrated along the way.",
+        "items": [
+            {
+                "id": "01",
+                "year": "2021",
+                "description": "Graduated from MD University with an A Grade in B.Tech Computer Science. Mentored 174+ students in mobile app development and joined Yasita Creations as a Software Engineer, digitizing manual workflows.",
+                "tags": [
+                    "Flutter",
+                    "Firebase",
+                    "Supabase",
+                    "Git"
+                ]
+            },
+            {
+                "id": "02",
+                "year": "2022",
+                "description": "Joined TaskEx (Australia, Remote) as a Software Engineer, developing a high-performance logistics app with real-time tracking, messaging, calendar features, and Stripe Tap-to-Pay.",
+                "tags": [
+                    "Flutter",
+                    "Stripe",
+                    "Real-time Sync",
+                    "Google Maps"
+                ]
+            },
+            {
+                "id": "03",
+                "year": "2023",
+                "description": "Joined SwiftAMS as a Senior Software Engineer. Led the development of three mobile apps, built B2B systems, implemented Flutter CI/CD pipelines, and learned PostgreSQL, NestJS, AWS, and Docker.",
+                "tags": [
+                    "NestJS",
+                    "PostgreSQL",
+                    "Docker",
+                    "AWS",
+                    "Nginx"
+                ]
+            },
+            {
+                "id": "04",
+                "year": "2024",
+                "description": "Joined Ulearna Tech (Dubai, Remote) as a Senior Software Engineer. Created the Gulf-tailored property marketplace 'Koor' from scratch, securing over 10K+ downloads in the first month.",
+                "tags": [
+                    "Flutter",
+                    "Multilingual",
+                    "Offline Sync",
+                    "Deep Linking"
+                ]
+            },
+            {
+                "id": "05",
+                "year": "2026",
+                "description": "Continuing to architect scalable mobile products, full-stack backends, and AI integrations (Gemini API, Local LLMs like Phi-4) to deliver premium client solutions globally.",
+                "tags": [
+                    "Gemini API",
+                    "Local LLM",
+                    "AI Integrations",
+                    "System Design"
+                ]
+            }
+        ]
+    },
+    "contact": {
+        "title": "CONTACT",
+        "description": "Whether we start fresh to bring a brand-new application to life or optimize an existing cloud infrastructure, let's talk.",
+        "email": "mr.samim.sammi@gmail.com",
+        "phone": "+91 9053329711",
+        "send_email": "Send an Email",
+        "direct_line": "Direct Line",
+        "all_rights_reserved": "ALL RIGHTS RESERVED.",
+        "modal_title": "Let's Connect",
+        "modal_description": "Send me a message and I'll get back to you as soon as possible."
+    },
+    "social": {
+        "title": "SOCIAL",
+        "items": [
+            {
+                "label": "GitHub",
+                "href": "https://github.com/samdev-0"
+            },
+            {
+                "label": "LinkedIn",
+                "href": "https://www.linkedin.com/in/mr-samim"
+            }
+        ]
+    },
+    "others": {
+        "about_project": "About the Project",
+        "technologies": "Technologies",
+        "live_demo": "Live Demo",
+        "source_code": "Source Code",
+        "project_details": "Details about",
+        "select_language": "Select Language",
+        "change_the_site_language": "Change the site language.",
+        "screenshots": "App Screenshots",
+        "all_projects": "All Projects",
+        "next_project": "Next Project"
+    }
+}
