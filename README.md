@@ -13,7 +13,7 @@
   <br />
   <br />
 
-  <h1>Mohd Mustak - Personal Interactive Portfolio</h1>
+  <h1>Samim - Personal Interactive Portfolio</h1>
 
   <p>
      An immersive, high-performance personal portfolio website built with Next.js, Framer Motion, and Three.js.
@@ -40,7 +40,7 @@
 
 ## 📋 About
 
-This is the interactive portfolio of **Mohd Mustak**, a Senior Software Engineer specializing in **Flutter mobile development** and scalable cloud/backend architectures. It features an award-winning horizontal layout, physics-based micro-interactions, custom interactive canvas particles, dual-language toggle (English & Turkish), and deep app store download button integrations.
+This is the interactive portfolio of **Samim**, a Senior Software Engineer specializing in **Flutter mobile development** and scalable cloud/backend architectures. It features an award-winning horizontal layout, physics-based micro-interactions, custom interactive canvas particles, dual-language toggle (English & Turkish), and deep app store download button integrations.
 
 ## <a id="features"></a> ✨ Features
 
@@ -90,5 +90,5 @@ To run this repository locally:
 #
 
 <p align="center">
-  <sub>Developed by Mohd Mustak</sub>
+  <sub>Developed by Samim</sub>
 </p>

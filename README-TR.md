@@ -13,7 +13,7 @@
   <br />
   <br />
 
-  <h1>Mohd Mustak - Kişisel Etkileşimli Portföy</h1>
+  <h1>Samim - Kişisel Etkileşimli Portföy</h1>
 
   <p>
      Next.js, Framer Motion ve Three.js ile oluşturulmuş, yüksek performanslı ve etkileşimli kişisel portföy web sitesi.
@@ -40,7 +40,7 @@
 
 ## 📋 Hakkında
 
-Bu web sitesi, **Flutter mobil geliştirme** ve ölçeklenebilir bulut/backend mimarileri konularında uzmanlaşmış Kıdemli Yazılım Mühendisi **Mohd Mustak**'ın etkileşimli portföyüdür. Awwwards kalitesinde yatay kaydırma, fizik tabanlı mikro etkileşimler, etkileşimli arka plan parçacıkları, çift dil seçeneği (İngilizce ve Türkçe) ve derin uygulama mağazası indirme butonları içerir.
+Bu web sitesi, **Flutter mobil geliştirme** ve ölçeklenebilir bulut/backend mimarileri konularında uzmanlaşmış Kıdemli Yazılım Mühendisi **Samim**'in etkileşimli portföyüdür. Awwwards kalitesinde yatay kaydırma, fizik tabanlı mikro etkileşimler, etkileşimli arka plan parçacıkları, çift dil seçeneği (İngilizce ve Türkçe) ve derin uygulama mağazası indirme butonları içerir.
 
 ## <a id="features"></a> ✨ Özellikler
 
@@ -90,5 +90,5 @@ Projeyi yerel ortamda çalıştırmak için:
 #
 
 <p align="center">
-  <sub>Mohd Mustak tarafından geliştirilmiştir</sub>
+  <sub>Samim tarafından geliştirilmiştir</sub>
 </p>

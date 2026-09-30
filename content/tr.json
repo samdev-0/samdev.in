@@ -126,7 +126,7 @@
                     },
                     {
                         "name": "AWS",
-                        "icon": "https://cdn.simpleicons.org/amazonwebservices"
+                        "icon": "/icons/aws.svg"
                     },
                     {
                         "name": "Nginx",
@@ -138,7 +138,7 @@
                     },
                     {
                         "name": "Bash",
-                        "icon": "https://cdn.simpleicons.org/gnu-bash"
+                        "icon": "/icons/bash.svg"
                     }
                 ]
             }
@@ -295,7 +295,7 @@
                 "icon": "/projects/ssc_ai/0.jpg",
                 "playstore": "https://play.google.com/store/apps/details?id=com.mmstq.quiz.ssc_quiz",
                 "website": "https://sscaiapp.com/",
-                "repo": "https://github.com/mohdmustak",
+                "repo": "https://github.com/samdev-0",
                 "stack": [
                     "Flutter",
                     "Gemini API",

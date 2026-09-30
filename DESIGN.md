@@ -1,6 +1,6 @@
 # 🎨 Portfolio Design System & Aesthetic Guidelines
 
-This document outlines the core visual, architectural, and user experience patterns implemented across **Mohd Mustak's** personal interactive portfolio website.
+This document outlines the core visual, architectural, and user experience patterns implemented across **Samim's** personal interactive portfolio website.
 
 ---
 
