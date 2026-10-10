@@ -1,4 +1,4 @@
-[Mohd Mustak](mailto:mohdmushtak59@gmail.com) | [mohdmushtak59@gmail.com](mailto:mohdmushtak59@gmail.com) | [\+91 7011152375](https://wa.me/917011152375) | [Linkedin](https://linkedin.com/in/mohdmustak) | [Website](https://mustak.dev) | Indian Citizen
+[Mohd Samim](mailto:mr.samim.sammi@gmail.com) | [mr.samim.sammi@gmail.com](mailto:mr.samim.sammi@gmail.com) | [\+91 9053329711](https://wa.me/919053329711) | [Linkedin](https://linkedin.com/in/mr-samim) | [Website](https://samdev.in) | Indian Citizen
 
 *I have made a lot of mistakes and learned a lot from them. I am full of energy,  have a learning attitude and easy to work with.*
 
